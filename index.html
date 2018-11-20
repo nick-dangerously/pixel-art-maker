@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <h1>Super<br> Pixel Art Maker</h1>
+
+    <h2 class="textOutline">Choose Grid Size</h2>
+    <form id="sizePicker" class="textOutline">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="35">
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" value="20">
+        <input type="submit" class="button">
+    </form>
+    
+    <h2 class="textOutline">Set A Background Image To Trace? (Optional)</h2>
+    <form id="imageURL" class="textOutline">
+        Enter image URL:
+        <input type="url" id="backgroundImageURL" name="backgroundURL" value="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mona_Lisa.jpg/396px-Mona_Lisa.jpg">
+        <input type="submit" class="button">
+    </form>
+    
+
+    <h2 class="textOutline">Pick A Color</h2>
+    <input type="color" id="colorPicker" value="#808080">
+    <h2 class="textOutline">Control Buttons</h2>
+    <button id="toggleImage" class="button">Toggle Image</button>
+    <button id="toggleGrid" class="button">Toggle Grid</button>
+    <button id="clearPixels" class="button">Clear All Pixels</button>
+    <button id="saveArt" class="button">Save Art</button>
+            
+
+    <table id="pixelCanvas"></table>
+
+    <script src="designs.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    background-image: url('assets/super_mario_wallpaper.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body:after{
+    background-image: url('assets/brick.jpg');
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 70px;
+    margin: 0.2em;
+    text-shadow: 4px 4px 8px #FFFFFF;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#pixelCanvas {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    /* For the background-image set by js*/
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.highlight {
+    border-width: 2px;    
+}
+
+.textOutline {
+    /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+    text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
