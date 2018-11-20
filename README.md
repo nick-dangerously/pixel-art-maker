@@ -1,16 +1,7 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+## About
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This is a simple pixel art creator.
 
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+You can link to an image you'd like to trace, create your pixel art, and then save your pixel art.
