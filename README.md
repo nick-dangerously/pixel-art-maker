@@ -1,4 +1,4 @@
-# Pixel Art Maker Project
+# pixel-art-maker
 
 ## About
 
